@@ -1,0 +1,60 @@
+PWD C:\Users\faisa\OneDrive - Tafi University\Dropbox\LaTeX\TuExam
+INPUT C:\Users\faisa\AppData\Local\MiKTeX\2.9\miktex\data\le\xetex\xelatex.fmt
+INPUT tu_exam.tex
+OUTPUT tu_exam.log
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\exam\exam.cls
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\exam\exam.cls
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ifthen.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\article.cls
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\size12.clo
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amstext.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphicx.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\keyval.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\graphics.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics\trig.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\xetex.def
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\graphics-def\xetex.def
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspace.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\setspace\setspace.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancybox\fancybox.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\fancybox\fancybox.sty
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-xdvipdfmx.def
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\l3backend\l3backend-xdvipdfmx.def
+INPUT tu_exam.aux
+INPUT tu_exam.aux
+OUTPUT tu_exam.aux
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\ts1cmr.fd
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr12.tfm
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr8.tfm
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi12.tfm
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi8.tfm
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy10.tfm
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy8.tfm
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmsy6.tfm
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\cm\cmex10.tfm
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex8.tfm
+INPUT C:\Users\faisa\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT logo1.jpg
+OUTPUT tu_exam.xdv
+INPUT tu_exam.aux

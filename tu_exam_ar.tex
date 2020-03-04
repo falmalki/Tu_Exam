@@ -1,0 +1,145 @@
+\documentclass[addpoints,12pt]{exam}
+\usepackage{graphicx}
+\usepackage[no-math]{fontspec}
+\usepackage{url,amsmath}
+\usepackage[quiet]{polyglossia}
+\usepackage{amsmath,amsthm,amsfonts}
+\usepackage{setspace}
+\usepackage{paralist}
+\usepackage[geometry]{ifsym}
+\usepackage{float}
+\usepackage{fancybox}	
+\usepackage{calc}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{fontspec}% هذه لنستطيع تغيير الخطوط
+\usepackage{afterpage}
+
+\setlength{\topmargin}{1.5cm}
+\usepackage[lmargin=3.0cm, rmargin=3.0cm,tmargin=2.50cm,bmargin=2.50cm]{geometry}
+\setdefaultlanguage{arabic} % Remove  [numerals=maghrib]
+\setotherlanguage[variant=british]{english}
+\setmainfont{AL-Mohanad}
+\setromanfont{Junicode}
+\defaultfontfeatures{Scale=MatchLowercase}
+\setmonofont{AL-Mohanad}
+\setsansfont{AL-Mohanad}
+\newfontfamily\arabicfont[Script=Arabic,Scale=1]{Amiri}
+\newfontfamily\arabicfonttt[Script=Arabic,Scale=1.3]{Times New Roman}
+\newcommand{\margin}[1]{
+\reversemarginpar
+\marginpar{\fbox{#1}}}
+\newcommand*\mycirc[1]{%
+  \begin{tikzpicture}
+    \node[draw,circle,inner sep=1pt] {#1};
+  \end{tikzpicture}}
+
+\begin{document}
+\pagestyle{headandfoot}
+\firstpageheadrule
+\firstpageheader{Name:} { } {التحليل العددي}
+\firstpagefooter{}{الإختبار النهائي, صفحة رقم \thepage\ من \numpages}
+{}
+\runningheader{Name:} { } {التحليل العددي}
+\runningfooter{}{صفحة رقم \thepage\ من \numpages}
+{}
+\runningheadrule
+\runningfootrule
+
+%%%%% Cover page
+
+\coverfirstpageheader{جامـــعة الطائــــــف \\ قسم الرياضيات و الإحصاء \\ \& ش}{\includegraphics[scale=0.5]{logo1.jpg}}{التحليل العددي \\ الإختبار النهائي \\ الزمن: 3 ساعات}
+\runningheadrule
+\runningfootrule
+\onehalfspacing
+\newcommand{\tf}[1][{}]{%
+\fillin[#1][0.25in]%
+}
+
+\[ \]
+\begin{center}
+\shadowbox{\begin{minipage}{5in}
+ الإسم:
+ \dotfill\\
+الرقم الجامعي:
+\dotfill
+\end{minipage}}
+\end{center}
+\begin{center}
+\doublebox{\begin{minipage}{4.5in}
+\begin{center}
+\textbf{
+تعليمات هامة:\\
+}
+\end{center}
+1- أجب عن  الأسئلة في نفس الورقة.\\
+2- تأكد من كتابة إسمك أعلى كل ورقة في المكان المخصص لذلك.\\
+3- تأكد أن عدد الصفحات هو 9 صفحات. \\
+4- تم وضع مساحة كافية للإجابة، إذا إحتجت إلى مساحة إضافية للحل فـأكتب خلف الورقة. مع الإشارة إلى رقم السؤال.
+\end{minipage}}
+\end{center}
+\mycirc{ التسلسلي الرقم}
+%\begin{table}[h!h]
+%\centering
+%\begin{tabular}{||c||p{4cm}||p{4cm}|}
+%\hline
+%\hline
+%&\\
+% الســـؤال &   الدرجــــة\\
+%&\\
+%\hline
+%&\\
+%الأول  &  \\
+%&\\\hline& \\
+%الثاني & \\
+%&\\\hline& \\
+%الثالث & \\
+%&\\\hline& \\
+%الرابــع & \\
+%&\\\hline& \\
+%الخامــس & \\
+%&\\
+%&\\\hline& \\
+%السادس & \\
+%&\\
+%\hline
+%\hline
+%& \\
+%المجموع الكلــي & \\
+%\hline
+%\hline
+%\hline
+%\end{tabular}
+%\end{table}
+%\clearpage
+
+\begin{questions}
+\question[5]
+\begin{enumerate}
+\item[أ - ] ضع علامة ( $\surd$) أمام العبارة الصحيحة  وعلامة ( X ) أمام الخاطئة مع تصحيح الخطأ:
+%\margin{10 درجات}
+\begin{enumerate}
+\item[1 - ]  لتكوين كثيرة حدود تايلور من الدرجة $n$ نحتاج إلى عدد $n$ من النقاط. \hspace{\stretch{0.1}} $\bigl( \:\:\:\: \bigr)$
+\item[]\dotfill
+\item[2 - ] في طريقة التنصيف يمثل المقدار $\displaystyle (\frac{b-a}{2})^n$ الحد الأعلى للخطأ المطلق. \hspace{\stretch{0.1}} $\bigl( \:\:\:\: \bigr)$
+\item[]\dotfill
+\item[3 - ] كلما زادت درجة كثيرة الحدود الإستكمالية كلما حصلنا على حل أدق. \hspace{\stretch{0.1}} $\bigl( \:\:\:\: \bigr)$
+\item[]\dotfill
+\item[4 - ] إذا كانت  $f(x)$ دالة متصلة على الفترة $[x_0, x_0+h]$، فإن الخطأ المرتكب عند إستخدام صيغ الفروق الأمامية لحساب قيمة $f'(x_0)$ يتناسب مع $h^2$. \hspace{\stretch{0.1}} $\bigl( \:\:\:\:
+\bigr)$
+\item[]\dotfill
+%\item[5 - ]  عند حل معادلة تفاضلية عدديا، فإن الخطأ المحلي لايكون بالضرورة متساويا عند كل نقاط التقسيم للمتغير المستقل. \hspace{\stretch{0.1}} $\bigl( \:\:\:\: \bigr)$
+\item[5 - ] قيمة الخطأ المطلق تتناسب عكسيا مع الخطأ النسبي. \hspace{\stretch{0.1}} $\bigl( \:\:\:\: \bigr)$
+\item[]\dotfill
+\end{enumerate}
+\hrulefill
+\question
+إعتبر الدالة $ f(x) =  e^{\sin(x)}$.  فإن كثيرة حدود تايلور من الدرجة الثالثة $p(x)$ حول $x_0 = 0$ تأخذ الشكل التالي
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{center}
+$\blacklozenge$$\blacklozenge$$\blacklozenge$\textbf{\textbf{  مع تمنياتي للجميع بالتوفيق والنجاح}} $\blacklozenge$$\blacklozenge$$\blacklozenge$
+\end{center}
+
+\end{document} 
